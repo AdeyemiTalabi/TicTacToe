@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingTop="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorlinear1"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/but1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="72sp"
+            android:onClick="clickBut1"/>
+        <Button
+            android:id="@+id/but2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="72sp"
+            android:onClick="clickBut2"/>
+
+        <Button
+            android:id="@+id/but3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="72sp"
+            android:onClick="clickBut3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorlinear2"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/but4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="72sp"
+            android:onClick="clickBut4"/>
+
+        <Button
+            android:id="@+id/but5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="72sp"
+            android:onClick="clickBut5"/>
+
+        <Button
+            android:id="@+id/but6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="72sp"
+            android:onClick="clickBut6"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorlinear1"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/but7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="72sp"
+            android:onClick="clickBut7"/>
+
+        <Button
+            android:id="@+id/but8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="72sp"
+            android:onClick="clickBut8"/>
+
+        <Button
+            android:id="@+id/but9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="72sp"
+            android:onClick="clickBut9"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    <Button
+        android:id="@+id/reset"
+        android:text="Reset"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="clickReset"/>
+    </LinearLayout>
+
+
+</LinearLayout>
